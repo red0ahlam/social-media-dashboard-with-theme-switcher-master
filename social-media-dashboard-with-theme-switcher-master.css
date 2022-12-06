@@ -75,6 +75,15 @@
 .fs-semi-regular { font-size: var(--fs-semi-regular);}
 .fs-regular { font-size: var(--fs-regular);}
 
+.dark-mode {
+  --clr-bg: var(--clr-dark-bg);
+  --clr-top-bg: var(--clr-dark-top-bg);
+  --clr-card-bg: var(--clr-dark-card-bg);
+  --clr-card-hover-bg: var(--clr-dark-card-hover-bg);
+  --clr-text-accent: var(--clr-dark-text-accent);
+  --clr-text-primary: var(--clr-dark-text-primary);
+}
+
 /*--------------------reset-----------------------*/
 
 /* Box sizing rules */
